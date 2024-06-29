@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-cl">
 <head>
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
@@ -8,17 +9,23 @@
 </head>
 <body>
     <header></header>
-    <main>
-        <h1>Este es un <strong>portfolio </strong>  creado para el curso ONE de Oracle y Alura
-        </h1>
-        <p>
-            ¡Yo soy un programador que esta estudiando para capacitarse y mantenerse al dia con las nuevas tecnologias!
-        </p>
-        <img src="img programador.jpg" alt="imagen de astronauta programando" width="50%" height="50%">
-        <p>
-            <a href="https://www.instagram.com/cristianpinto_f">Mi Instagram</a>
-            <a href="https://github.com/CristianPintoDev">Mi Github</a>
-        </p>
-    </main>
+        <main class="presentacion">
+            <section class="presentacion_contenido">
+                <h1 class="presentacion_contenido_titulo">
+                    Este es un 
+                    <strong class="destacarTitulo">portfolio 
+                    </strong>  creado para el curso ONE de Oracle y Alura
+                </h1>
+                <p class="presentacion_contenido_parrafo">
+                    ¡Yo soy un programador que esta estudiando para capacitarse y 
+                    mantenerse al dia con las nuevas tecnologias! :)
+                </p>
+                <div class="presentacion_link">
+                    <a class="presentacion_link_button" href="https://www.instagram.com/cristianpinto_f">Mi Instagram</a>
+                    <a class="presentacion_link_button" href="https://github.com/CristianPintoDev">Mi Github</a>
+                </div>
+            </section>
+            <img src="img programador.jpg" alt="imagen de astronauta programando" width="30%" height="30%">
+        </main>
 </body>
 </html>
