@@ -5,27 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header></header>
-        <main class="presentacion">
-            <section class="presentacion_contenido">
-                <h1 class="presentacion_contenido_titulo">
-                    Este es un 
-                    <strong class="destacarTitulo">portfolio 
-                    </strong>  creado para el curso ONE de Oracle y Alura
-                </h1>
-                <p class="presentacion_contenido_parrafo">
-                    ¡Yo soy un programador que esta estudiando para capacitarse y 
-                    mantenerse al dia con las nuevas tecnologias! :)
-                </p>
-                <div class="presentacion_link">
-                    <a class="presentacion_link_button" href="https://www.instagram.com/cristianpinto_f">Mi Instagram</a>
-                    <a class="presentacion_link_button" href="https://github.com/CristianPintoDev">Mi Github</a>
-                </div>
-            </section>
-            <img src="img programador.jpg" alt="imagen de astronauta programando" width="30%" height="30%">
-        </main>
+    <header class="header">
+        <nav class="barra_navegacion">
+            <a class="barra_navegacion_link" href="index.html">Inicio</a>
+            <a class="barra_navegacion_link" href="about.html">Sobre Mi</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion_contenido">
+            <h1 class="presentacion_contenido_titulo">
+                Este es un 
+                <strong class="destacarTitulo">portfolio 
+                </strong>  creado para el curso ONE de Oracle y Alura
+            </h1>
+            <p class="presentacion_contenido_parrafo">
+                ¡Yo soy un programador que esta estudiando para capacitarse y 
+                mantenerse al dia con las nuevas tecnologias! :)
+            </p>
+            <div class="presentacion_link">
+                <h2 calss="presentacion_link_titulo">Ingresa a mis redes</h2>
+                <a class="presentacion_link_button" href="https://www.instagram.com/cristianpinto_f">
+                <img src="iconos/instagram.png"> Instagram</a>
+                <a class="presentacion_link_button" href="https://github.com/CristianPintoDev">
+                <img src="iconos/github.png"> Github</a>
+            </div>
+        </section>
+        <img src="iconos/img programador.jpg" alt="imagen de astronauta programando" width="30%" height="30%">
+    </main>
+    <footer class="pie_pagina">
+        <p>Desarrollado para <a class="link_alura" href="https://www.aluracursos.com/">Alura</a></p>
+    </footer>
 </body>
 </html>
